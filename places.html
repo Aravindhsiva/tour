@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Packages</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link type="text/css" href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="icon" href="logo.jpg" type="image/jpg"> 
+    </head>
+    <style>
+        *{
+            color: white;
+        }
+    </style>
+<body>
+    <div class="container-fluid place">
+        <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#" onclick="home()">TravelGuru</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="tourism.html">Home</a></li>
+        <li><a href="#" onclick="place()">Places</a></li>
+        <li><a href="pack.html">Packages</a></li> 
+          <li><a href="https://aravindhsiva.github.io/page.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li onclick="try()"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li onclick="try()"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="card">
+  <img src="del.jpg" alt="New Delhi" style="width:100%">
+    <h4><b>New Delhi</b></h4> 
+    <p>India</p> 
+  </div>
+        <div class="card">
+  <img src="ker.jpg" alt="Kerala" style="width:100%">
+    <h4><b>Kerala</b></h4> 
+    <p>India</p> 
+  </div>
+        <div class="card">
+  <img src="raj.jpg" alt="Rajasthan" style="width:100%">
+    <h4><b>Rajasthan</b></h4> 
+    <p>India</p> 
+  </div>
+
+        <div class="card">
+  <img src="kas.jpg" alt="Kashmir" style="width:100%">
+    <h4><b>Kashmir</b></h4> 
+    <p>India</p> 
+  </div><br><br>
+        <div class="card">
+  <img src="go.jpg" alt="Goa" style="width:100%">
+    <h4><b>Goa</b></h4> 
+    <p>India</p> 
+  </div>
+        </div>
+    </body>
+    <script>
+    function home(){
+         alert("The most liked website of 2018");   
+        }
+        function place(){
+            alert("You are already here");
+        }
+        function try(){
+            alert("Will be available in the future");
+        }
+    </script>
+</html>

@@ -1,0 +1,65 @@
+.active{
+    color: white;
+}
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.header{
+    height: 100%;
+    background-image: url(head.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pack{
+    height: 100%;
+    background-image: url(sect.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.place{
+    height: 100%;
+    background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+}
+.header button{
+    font-size: 40px;
+    color: black;
+    border:none;
+    background: white;
+    text-align: center;
+    border-radius: 5%;
+    margin-left: 40%;
+}
+.header button:hover{
+    color:white;
+    background: black;
+    transition-duration: 0.9s;
+}
+.header h1{
+    margin-top:25%;
+    color: white;
+    text-align: center;
+}
+marquee{
+    font-size: 20px;
+    color: white;
+}
+marquee:hover{
+    color: black;
+}
+.card{
+    margin-left: 2%;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0);
+    transition: 0.3s;
+    width: 22%;
+    border-radius: 5px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(1,1,1,1);
+}
+img {
+    border-radius: 5px 5px 0 0;
+}
